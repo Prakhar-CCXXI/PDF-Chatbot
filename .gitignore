@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+
+# Streamlit
+.streamlit/
+
+# Uploaded files
+uploaded/
+*.pdf
+
+# Vector stores & embeddings
+faiss_index/
+vectorstore/
+embeddings/
+
+# Ollama models
+.ollama/
+ollama/
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
