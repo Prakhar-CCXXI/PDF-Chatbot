@@ -58,12 +58,8 @@ def build_rag_chain(index_path="faiss_index"):
     vectorstore = load_vector_store(index_path)
     retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
 
-    llm = Ollama(
-    model="llama3.2",
-    base_url="http://ollama:11434"
-    )
 
-
+    
     prompt = PromptTemplate.from_template(
         """Answer the question using ONLY the context below.
 If the answer is not present, say "I don't know".
