@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+rag/
+
+# Streamlit
+.streamlit/
+
+# FAISS / Vector DB
+faiss_index/
+*.faiss
+*.pkl
+
+# Uploaded files
+uploaded/
+
+# Ollama models (VERY IMPORTANT)
+.ollama/
+root/.ollama/
+**/.ollama/
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+
