@@ -238,13 +238,3 @@ git commit -m "Update README with challenges faced (non-Docker)"
 git push origin main
 ````
 
----
-
-### 🎯 Why This Version Is Strong
-
-* No Docker noise (as requested)
-* Shows **problem-solving & learning**
-* Honest challenges (very recruiter-friendly)
-* Clear GenAI & RAG understanding
-* Perfect for **fresher + internship + entry-level roles**
-
